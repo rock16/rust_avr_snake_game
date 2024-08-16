@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+elf = "target/avr-unknown-gnu-atmega328/release/snake-game.elf"
+firmware = "target/avr-unknown-gnu-atmega328/release/snake-game.elf"

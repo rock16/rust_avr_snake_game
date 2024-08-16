@@ -1,0 +1,19 @@
+[package]
+name = "snake-game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+panic-halt = "0.2.0"
+embedded-hal = "1.0.0"
+embedded-io = "0.6.1"
+
+[dependencies.avr-hal-generic]
+git = "https://github.com/rahix/avr-hal.git"
+rev = "3e362624547462928a219c40f9ea8e3a64f21e5f"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
